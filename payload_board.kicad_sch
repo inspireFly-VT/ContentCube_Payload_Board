@@ -4871,6 +4871,163 @@
 				)
 			)
 		)
+		(symbol "Device:L"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "L"
+				(at -1.27 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "L"
+				(at 1.905 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Inductor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "inductor choke coil reactor magnetic"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "L_0_1"
+				(arc
+					(start 0 -2.54)
+					(mid 0.6323 -1.905)
+					(end 0 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -1.27)
+					(mid 0.6323 -0.635)
+					(end 0 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid 0.6323 0.635)
+					(end 0 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 1.27)
+					(mid 0.6323 1.905)
+					(end 0 2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "L_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:LED"
 			(pin_numbers hide)
 			(pin_names
@@ -5599,168 +5756,6 @@
 					(at 0 -3.81 90)
 					(length 1.27)
 					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Diode:1N4148"
-			(pin_numbers hide)
-			(pin_names hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "1N4148"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "100V 0.15A standard switching diode, DO-35"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Device" "D"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "D*DO?35*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "1N4148_0_1"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "1N4148_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -8095,210 +8090,6 @@
 						(effects
 							(font
 								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "PayloadBoard:SLF6028T-100M1R3-PF"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "L"
-				(at -10.16 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "SLF6028T-100M1R3-PF"
-				(at -10.16 4.318 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "PayloadBoard:IND_SLF6028T-100M1R3-PF"
-				(at 0 -3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.digikey.com/short/n9hr3zn9"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "PARTREV" "N/A"
-				(at 0.508 -2.032 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "STANDARD" "Manufacturer Recommendations"
-				(at 0.762 -3.302 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MAXIMUM_PACKAGE_HEIGHT" "3.0 mm"
-				(at 0.508 -3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MANUFACTURER" "TDK"
-				(at 0.254 -4.826 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "SLF6028T-100M1R3-PF_0_0"
-				(arc
-					(start -2.54 0)
-					(mid -3.81 1.2645)
-					(end -5.08 0)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 0)
-					(mid -1.27 1.2645)
-					(end -2.54 0)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 0) (xy -7.62 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 0) (xy 7.62 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 2.54 0)
-					(mid 1.27 1.2645)
-					(end 0 0)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 5.08 0)
-					(mid 3.81 1.2645)
-					(end 2.54 0)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -12.7 0 0)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 12.7 0 180)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
 							)
 						)
 					)
@@ -11285,126 +11076,6 @@
 				)
 			)
 		)
-		(symbol "power:+3.3V"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+3.3V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+3.3V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+3.3V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_names
@@ -11551,6 +11222,12 @@
 		(uuid "28950bf8-cf79-43e9-95b7-37a0652b6e53")
 	)
 	(junction
+		(at 287.02 226.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2dd19493-00b6-45c5-8399-acf549ccf30b")
+	)
+	(junction
 		(at 306.07 170.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11585,12 +11262,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3b75c7dd-70b1-4773-8161-c87e4bdb9e9f")
-	)
-	(junction
-		(at 287.02 226.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "41f0de39-cbd5-4d7b-8fa7-7b738d811742")
 	)
 	(junction
 		(at 54.61 80.01)
@@ -12210,7 +11881,7 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 72.39) (xy 287.02 72.39)
+			(xy 276.86 72.39) (xy 295.91 72.39)
 		)
 		(stroke
 			(width 0)
@@ -12550,6 +12221,16 @@
 	)
 	(wire
 		(pts
+			(xy 307.34 228.6) (xy 307.34 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ff30f03-79b1-41ba-97df-a0094380d057")
+	)
+	(wire
+		(pts
 			(xy 33.02 179.07) (xy 30.48 179.07)
 		)
 		(stroke
@@ -12677,6 +12358,16 @@
 			(type default)
 		)
 		(uuid "38942056-8ff8-4399-9ff5-6169d7d1914d")
+	)
+	(wire
+		(pts
+			(xy 303.53 72.39) (xy 318.77 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "391dc0dc-125f-4b8e-9b46-a5e6584b29ae")
 	)
 	(wire
 		(pts
@@ -14020,16 +13711,6 @@
 	)
 	(wire
 		(pts
-			(xy 287.02 215.9) (xy 287.02 226.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae67cb6e-5f3b-4765-8588-b5353a684641")
-	)
-	(wire
-		(pts
 			(xy 243.84 44.45) (xy 251.46 44.45)
 		)
 		(stroke
@@ -14490,16 +14171,6 @@
 	)
 	(wire
 		(pts
-			(xy 307.34 228.6) (xy 307.34 229.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cead0616-efbc-44b4-a659-f9f52c9b9035")
-	)
-	(wire
-		(pts
 			(xy 311.15 158.75) (xy 311.15 165.1)
 		)
 		(stroke
@@ -14610,7 +14281,7 @@
 	)
 	(wire
 		(pts
-			(xy 303.53 207.01) (xy 308.61 207.01)
+			(xy 307.34 207.01) (xy 308.61 207.01)
 		)
 		(stroke
 			(width 0)
@@ -15060,16 +14731,6 @@
 	)
 	(wire
 		(pts
-			(xy 312.42 72.39) (xy 318.77 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f6f776d7-fc70-45af-b778-6e2e8c5287d4")
-	)
-	(wire
-		(pts
 			(xy 194.3333 80.01) (xy 193.609 80.01)
 		)
 		(stroke
@@ -15097,6 +14758,16 @@
 			(type default)
 		)
 		(uuid "faf2d184-7959-44bf-8da1-45fcee34777a")
+	)
+	(wire
+		(pts
+			(xy 287.02 223.52) (xy 287.02 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb0d4e2d-2aad-4ec2-bd16-eca6142c7a56")
 	)
 	(wire
 		(pts
@@ -15190,7 +14861,7 @@
 	(text_box "Screen 13V Booster\n"
 		(exclude_from_sim no)
 		(at 260.35 59.69 0)
-		(size 96.52 46.99)
+		(size 96.52 54.61)
 		(stroke
 			(width 0)
 			(type default)
@@ -15379,8 +15050,8 @@
 	)
 	(text_box "SD Card Holder"
 		(exclude_from_sim no)
-		(at 260.35 106.68 0)
-		(size 96.52 46.99)
+		(at 260.35 114.3 0)
+		(size 96.52 39.37)
 		(stroke
 			(width 0)
 			(type default)
@@ -15567,7 +15238,7 @@
 	)
 	(text "VOUT = 13.53V"
 		(exclude_from_sim no)
-		(at 339.09 45.212 0)
+		(at 279.146 103.886 0)
 		(effects
 			(font
 				(size 1.778 1.5113)
@@ -15587,9 +15258,9 @@
 		)
 		(uuid "9dc17c19-2517-4538-9ef8-84d65de55da4")
 	)
-	(text "VOUT = 1.23V * (1 + R6/R7)"
+	(text "VOUT = 1.23V * (1 + R17/R18)"
 		(exclude_from_sim no)
-		(at 339.09 42.672 0)
+		(at 279.146 101.346 0)
 		(effects
 			(font
 				(size 1.778 1.5113)
@@ -15611,7 +15282,7 @@
 	)
 	(text "This is 0.5V above the recommended voltage,"
 		(exclude_from_sim no)
-		(at 323.85 50.292 0)
+		(at 263.906 108.966 0)
 		(effects
 			(font
 				(size 1.778 1.5113)
@@ -15622,7 +15293,7 @@
 	)
 	(text "but uses common resistors for easy assembly"
 		(exclude_from_sim no)
-		(at 323.85 52.832 0)
+		(at 263.906 111.506 0)
 		(effects
 			(font
 				(size 1.778 1.5113)
@@ -15630,6 +15301,16 @@
 			(justify left bottom)
 		)
 		(uuid "c0985520-cc8d-4c69-8472-1be216647800")
+	)
+	(text "600k Hard to find\nSeries 2x 300k"
+		(exclude_from_sim no)
+		(at 272.288 219.456 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c527dd9d-c39e-4547-9f8b-783327db6273")
 	)
 	(text "Remove for 3 bit bus\n"
 		(exclude_from_sim no)
@@ -15652,7 +15333,7 @@
 		)
 		(uuid "d5af0d24-b04a-4587-a48e-aa41d449e185")
 	)
-	(text "R18 = (VCC-6V)/12.5uA"
+	(text "IREF RES = (VCC-6V)/12.5uA"
 		(exclude_from_sim no)
 		(at 261.112 211.328 0)
 		(effects
@@ -16434,7 +16115,7 @@
 	)
 	(global_label "SPI0_CS_DISP"
 		(shape input)
-		(at 303.53 207.01 180)
+		(at 307.34 207.01 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -16444,7 +16125,7 @@
 		)
 		(uuid "417c185f-b9d0-41d1-85f7-10fdeeea1471")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 287.482 207.01 0)
+			(at 291.292 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16914,6 +16595,28 @@
 			)
 		)
 	)
+	(global_label "DIN-"
+		(shape input)
+		(at 307.34 233.68 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "84286cc0-c9dc-4705-bcc3-571e56987f1f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 299.5771 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "VUR"
 		(shape input)
 		(at 214.63 187.96 180)
@@ -17112,6 +16815,28 @@
 			)
 		)
 	)
+	(global_label "DIN-"
+		(shape input)
+		(at 306.07 158.75 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "99eee4c7-535d-4bb5-8ddb-7420fb176446")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 298.3071 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "UART1_TX"
 		(shape bidirectional)
 		(at 109.22 219.71 0)
@@ -17130,6 +16855,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DIN-"
+		(shape input)
+		(at 269.24 81.28 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9b597b54-9324-4ab5-a026-466d0b428c4f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 261.4771 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -20504,91 +20251,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N4148")
-		(at 293.37 177.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4bc8bfa8-7d9a-4e1e-9e9c-5fff74f991ce")
-		(property "Reference" "D8"
-			(at 293.37 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4148"
-			(at 293.37 182.118 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 293.37 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 293.37 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 293.37 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 293.37 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 293.37 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ee99dbf2-2f53-4f58-8cff-1ec5ad611f1f")
-		)
-		(pin "1"
-			(uuid "594eb65c-b2e5-4208-a48e-ba749d020f4c")
-		)
-		(instances
-			(project "payload_board_rev072"
-				(path "/e3f40ef2-c677-4aae-b100-4b87fee46bc8"
-					(reference "D8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "GND_7")
 		(lib_id "power:GND")
 		(at 314.96 205.74 270)
@@ -22606,72 +22268,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 269.24 81.28 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "74497d05-fa4a-4560-887a-f0614abec021")
-		(property "Reference" "#PWR059"
-			(at 269.24 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 269.24 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 269.24 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 269.24 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 269.24 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c94eeecb-0c65-4d1c-b193-a2f46307b977")
-		)
-		(instances
-			(project "payload_board_rev072"
-				(path "/e3f40ef2-c677-4aae-b100-4b87fee46bc8"
-					(reference "#PWR059")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
 		(at 185.42 139.7 180)
 		(unit 1)
@@ -23305,72 +22901,6 @@
 			(project "FC_Board_v1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR0107")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "+3.3V_1")
-		(lib_id "power:+3.3V")
-		(at 307.34 229.87 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "898995e3-8625-4613-ad95-e195d1b387c7")
-		(property "Reference" "#PWR064"
-			(at 307.34 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 306.832 234.442 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 307.34 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 307.34 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 307.34 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f22ea5fa-e80d-466d-a319-41673c9f43d2")
-		)
-		(instances
-			(project "payload_board_rev072"
-				(path "/e3f40ef2-c677-4aae-b100-4b87fee46bc8"
-					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -24086,7 +23616,7 @@
 				)
 			)
 		)
-		(property "Value" "600k"
+		(property "Value" "300k"
 			(at 291.084 217.17 90)
 			(effects
 				(font
@@ -24293,7 +23823,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9a80bd44-209a-491d-810e-f1317a7f424f")
-		(property "Reference" "T13V"
+		(property "Reference" "T13V1"
 			(at 337.82 71.12 90)
 			(effects
 				(font
@@ -24345,7 +23875,7 @@
 		(instances
 			(project "payload_board_rev072"
 				(path "/e3f40ef2-c677-4aae-b100-4b87fee46bc8"
-					(reference "T13V")
+					(reference "T13V1")
 					(unit 1)
 				)
 			)
@@ -24659,91 +24189,6 @@
 			(project "FC_Board_v1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4148")
-		(at 283.21 177.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a39c50ee-311c-4fa3-a141-977ab6f86a87")
-		(property "Reference" "D6"
-			(at 283.21 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4148"
-			(at 283.21 182.118 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 283.21 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 283.21 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 283.21 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 283.21 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 283.21 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "604ffbb1-bd13-4950-947a-44f0e55755e1")
-		)
-		(pin "1"
-			(uuid "18054c23-b584-4f5f-b594-98b821199499")
-		)
-		(instances
-			(project "payload_board_rev072"
-				(path "/e3f40ef2-c677-4aae-b100-4b87fee46bc8"
-					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -26816,72 +26261,6 @@
 		)
 	)
 	(symbol
-		(lib_name "+3.3V_1")
-		(lib_id "power:+3.3V")
-		(at 306.07 158.75 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cb0bcac6-e68c-4a96-820d-cfb8339caf3c")
-		(property "Reference" "#PWR063"
-			(at 306.07 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 303.022 155.448 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 306.07 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 306.07 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 306.07 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "055e4d81-df0f-421d-be11-967e96de73ff")
-		)
-		(instances
-			(project "payload_board_rev072"
-				(path "/e3f40ef2-c677-4aae-b100-4b87fee46bc8"
-					(reference "#PWR063")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 138.43 133.35 270)
 		(unit 1)
@@ -27263,7 +26642,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "10uF"
 			(at 271.526 91.44 0)
 			(effects
 				(font
@@ -27960,8 +27339,8 @@
 		)
 	)
 	(symbol
-		(lib_id "PayloadBoard:SLF6028T-100M1R3-PF")
-		(at 299.72 72.39 0)
+		(lib_id "Device:L")
+		(at 299.72 72.39 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -27969,32 +27348,22 @@
 		(dnp no)
 		(uuid "db775a3d-f5c9-4634-a4ca-b06b4884837e")
 		(property "Reference" "L1"
-			(at 297.688 69.596 0)
+			(at 296.926 74.422 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "SLF6028T-100M1R3-PF"
-			(at 299.72 74.168 0)
+		(property "Value" "10uH/1A"
+			(at 299.72 69.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "PayloadBoard:IND_SLF6028T-100M1R3-PF"
-			(at 299.72 75.946 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com/short/n9hr3zn9"
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric_Pad1.43x2.20mm_HandSolder"
 			(at 299.72 72.39 0)
 			(effects
 				(font
@@ -28003,7 +27372,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Datasheet" "~"
+			(at 299.72 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Inductor"
 			(at 299.72 72.39 0)
 			(effects
 				(font
@@ -28013,7 +27391,7 @@
 			)
 		)
 		(property "PARTREV" "N/A"
-			(at 300.228 74.422 0)
+			(at 301.752 71.882 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28023,7 +27401,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 300.482 75.692 0)
+			(at 303.022 71.628 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28033,7 +27411,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "3.0 mm"
-			(at 300.228 75.946 0)
+			(at 303.276 71.882 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28043,7 +27421,7 @@
 			)
 		)
 		(property "MANUFACTURER" "TDK"
-			(at 299.974 77.216 0)
+			(at 304.546 72.136 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28076,7 +27454,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dc8cd67b-9199-4cd5-a16e-5a1a2dfc8f5f")
-		(property "Reference" "R16"
+		(property "Reference" "R19"
 			(at 308.61 174.752 90)
 			(effects
 				(font
@@ -28127,6 +27505,73 @@
 		)
 		(instances
 			(project "payload_board_rev072"
+				(path "/e3f40ef2-c677-4aae-b100-4b87fee46bc8"
+					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 287.02 219.71 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dd0544af-5a66-4689-9251-af24cd53d03d")
+		(property "Reference" "R16"
+			(at 283.972 218.186 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "300k"
+			(at 283.464 220.472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 288.798 219.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 287.02 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 287.02 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6b45b067-0bd0-4e26-a087-a018a607aa9a")
+		)
+		(pin "1"
+			(uuid "d7d840ea-bf6a-48de-aad6-57ba9feedb76")
+		)
+		(instances
+			(project "payload_board"
 				(path "/e3f40ef2-c677-4aae-b100-4b87fee46bc8"
 					(reference "R16")
 					(unit 1)
