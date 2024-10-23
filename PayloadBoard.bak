@@ -27,7 +27,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "PayloadBoard:MOLEX_503398-1892"
+		(property "Footprint" "503398-1892:MOLEX_503398-1892"
 			(at 0 0 0)
 			(effects
 				(font
@@ -37,7 +37,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/short/p890c7vr"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(effects
 				(font

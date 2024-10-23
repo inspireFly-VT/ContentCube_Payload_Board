@@ -1,4 +1,4 @@
-23892427776763429
+23894210905694857
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -84685,6 +84685,13 @@ MOLEX_105164-0001
 0
 11
 11
+PayloadBoard
+MOLEX_503398-1892
+
+
+0
+14
+14
 PayloadBoard
 Molex_Micro_USB_Vert
 
