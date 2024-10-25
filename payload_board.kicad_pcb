@@ -17959,7 +17959,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "0.065"
 			(at 0 -1.82 0)
 			(layer "B.Fab")
 			(uuid "d2188270-b40d-46d8-9b5b-4feb5d05b885")
@@ -18174,7 +18174,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "INA180A1"
+		(property "Value" "INA180A3"
 			(at 0 -2.4 0)
 			(layer "B.Fab")
 			(uuid "642146ef-09d8-4cd1-a84c-1d613c3cef2b")
@@ -21346,7 +21346,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "INA180A1"
+		(property "Value" "INA180A3"
 			(at 0 -2.4 0)
 			(layer "B.Fab")
 			(uuid "e46653bf-3ad2-4624-911f-559960296bed")
