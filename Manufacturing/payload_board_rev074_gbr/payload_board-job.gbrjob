@@ -5,13 +5,13 @@
       "Application": "Pcbnew",
       "Version": "8.0.4"
     },
-    "CreationDate": "2024-10-28T08:05:00-04:00"
+    "CreationDate": "2024-11-09T01:48:32-05:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "payload_board",
       "GUID": "7061796c-6f61-4645-9f62-6f6172642e6b",
-      "Revision": "rev?"
+      "Revision": "0.7.4"
     },
     "Size": {
       "X": 100.25,

@@ -1,7 +1,7 @@
 {
   "board": {
     "active_layer": 0,
-    "active_layer_preset": "All Layers",
+    "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
     "hidden_nets": [],
@@ -28,7 +28,6 @@
       "zones": true
     },
     "visible_items": [
-      0,
       1,
       2,
       3,
