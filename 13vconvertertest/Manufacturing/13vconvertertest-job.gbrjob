@@ -5,19 +5,19 @@
       "Application": "Pcbnew",
       "Version": "8.0.4"
     },
-    "CreationDate": "2024-11-21T13:14:58-05:00"
+    "CreationDate": "2024-12-02T13:52:30-05:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
-      "Name": "payload_board",
-      "GUID": "7061796c-6f61-4645-9f62-6f6172642e6b",
-      "Revision": "0.7.4"
+      "Name": "13vconvertertest",
+      "GUID": "31337663-6f6e-4766-9572-746572746573",
+      "Revision": "rev?"
     },
     "Size": {
-      "X": 100.25,
-      "Y": 100.2246
+      "X": 16.34,
+      "Y": 25.18
     },
-    "LayerNumber": 4,
+    "LayerNumber": 2,
     "BoardThickness": 1.6,
     "Finish": "None"
   },
@@ -27,63 +27,54 @@
       "PadToPad": 0.1905,
       "PadToTrack": 0.1905,
       "TrackToTrack": 0.1905,
-      "MinLineWidth": 0.1,
-      "TrackToRegion": 0.2934,
-      "RegionToRegion": 0.2934
-    },
-    {
-      "Layers": "Inner",
-      "PadToPad": 0.0,
-      "PadToTrack": 0.0,
-      "TrackToTrack": 0.1905,
-      "MinLineWidth": 0.1524,
-      "TrackToRegion": 1.0,
-      "RegionToRegion": 1.0
+      "MinLineWidth": 0.25,
+      "TrackToRegion": 0.5,
+      "RegionToRegion": 0.5
     }
   ],
   "FilesAttributes": [
     {
-      "Path": "payload_board-F_Cu.gbr",
+      "Path": "13vconvertertest-F_Cu.gbr",
       "FileFunction": "Copper,L1,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "payload_board-In1_Cu.gbr",
-      "FileFunction": "Copper,L2,Inr",
+      "Path": "13vconvertertest-B_Cu.gbr",
+      "FileFunction": "Copper,L2,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "payload_board-In2_Cu.gbr",
-      "FileFunction": "Copper,L3,Inr",
+      "Path": "13vconvertertest-F_Paste.gbr",
+      "FileFunction": "SolderPaste,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "payload_board-B_Cu.gbr",
-      "FileFunction": "Copper,L4,Bot",
+      "Path": "13vconvertertest-B_Paste.gbr",
+      "FileFunction": "SolderPaste,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "payload_board-F_Silkscreen.gbr",
+      "Path": "13vconvertertest-F_Silkscreen.gbr",
       "FileFunction": "Legend,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "payload_board-B_Silkscreen.gbr",
+      "Path": "13vconvertertest-B_Silkscreen.gbr",
       "FileFunction": "Legend,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "payload_board-F_Mask.gbr",
+      "Path": "13vconvertertest-F_Mask.gbr",
       "FileFunction": "SolderMask,Top",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "payload_board-B_Mask.gbr",
+      "Path": "13vconvertertest-B_Mask.gbr",
       "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "payload_board-Edge_Cuts.gbr",
+      "Path": "13vconvertertest-Edge_Cuts.gbr",
       "FileFunction": "Profile",
       "FilePolarity": "Positive"
     }
@@ -109,34 +100,10 @@
     },
     {
       "Type": "Dielectric",
-      "Thickness": 0.1,
+      "Thickness": 1.51,
       "Material": "FR4",
-      "Name": "F.Cu/In1.Cu",
-      "Notes": "Type: dielectric layer 1 (from F.Cu to In1.Cu)"
-    },
-    {
-      "Type": "Copper",
-      "Thickness": 0.035,
-      "Name": "In1.Cu"
-    },
-    {
-      "Type": "Dielectric",
-      "Thickness": 1.24,
-      "Material": "FR4",
-      "Name": "In1.Cu/In2.Cu",
-      "Notes": "Type: dielectric layer 2 (from In1.Cu to In2.Cu)"
-    },
-    {
-      "Type": "Copper",
-      "Thickness": 0.035,
-      "Name": "In2.Cu"
-    },
-    {
-      "Type": "Dielectric",
-      "Thickness": 0.1,
-      "Material": "FR4",
-      "Name": "In2.Cu/B.Cu",
-      "Notes": "Type: dielectric layer 3 (from In2.Cu to B.Cu)"
+      "Name": "F.Cu/B.Cu",
+      "Notes": "Type: dielectric layer 1 (from F.Cu to B.Cu)"
     },
     {
       "Type": "Copper",
