@@ -23861,6 +23861,17 @@
 			(uuid "0d2121ee-6bea-4b11-a105-eb0b1bf2e5bb")
 		)
 	)
+	(gr_rect
+		(start 48 56)
+		(end 78 86)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(fill none)
+		(layer "B.SilkS")
+		(uuid "db9281c2-0249-4ba4-8645-3626ca1bd8ff")
+	)
 	(gr_line
 		(start 45.712243 27.508286)
 		(end 52.123003 27.508286)
@@ -24080,6 +24091,18 @@
 			(font
 				(size 1.1 1)
 				(thickness 0.15)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "DISPLAY"
+		(at 70.5 73 0)
+		(layer "B.SilkS")
+		(uuid "b1d560e1-51b9-45a3-8234-88e4217c7b5e")
+		(effects
+			(font
+				(size 3 2.5)
+				(thickness 0.3)
 			)
 			(justify left bottom mirror)
 		)
