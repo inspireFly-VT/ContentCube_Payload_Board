@@ -15676,7 +15676,6 @@
 	)
 	(label "~{RESET}"
 		(at 190.5 135.89 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -15687,7 +15686,6 @@
 	)
 	(label "QSPI_CS"
 		(at 198.8092 80.0257 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -15698,7 +15696,6 @@
 	)
 	(label "D+"
 		(at 140.97 177.8 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -15709,7 +15706,6 @@
 	)
 	(label "USBBOOT"
 		(at 130.81 95.25 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -15720,7 +15716,6 @@
 	)
 	(label "QSPI_SCK"
 		(at 36.83 123.19 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -15731,7 +15726,6 @@
 	)
 	(label "SWDIO"
 		(at 135.89 140.97 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -15742,7 +15736,6 @@
 	)
 	(label "QSPI_SCK"
 		(at 196.2692 72.4057 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -15753,7 +15746,6 @@
 	)
 	(label "QSPI_DATA[1]"
 		(at 196.2692 77.4857 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -15764,7 +15756,6 @@
 	)
 	(label "USBBOOT"
 		(at 153.67 212.09 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -15775,7 +15766,6 @@
 	)
 	(label "QSPI_DATA[3]"
 		(at 196.2692 85.1057 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -15786,7 +15776,6 @@
 	)
 	(label "D-"
 		(at 147.32 130.81 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -15797,7 +15786,6 @@
 	)
 	(label "QSPI_DATA[2]"
 		(at 36.83 133.35 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -15808,7 +15796,6 @@
 	)
 	(label "VCC"
 		(at 196.85 210.82 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15819,7 +15806,6 @@
 	)
 	(label "SWCLK"
 		(at 135.89 138.43 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -15830,7 +15816,6 @@
 	)
 	(label "QSPI_DATA[0]"
 		(at 196.2692 74.9457 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -15841,7 +15826,6 @@
 	)
 	(label "QSPI_CS"
 		(at 36.83 125.73 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -15852,7 +15836,6 @@
 	)
 	(label "QSPI_DATA[1]"
 		(at 36.83 130.81 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -15863,7 +15846,6 @@
 	)
 	(label "3Vo"
 		(at 26.67 231.14 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15874,7 +15856,6 @@
 	)
 	(label "D+"
 		(at 147.32 133.35 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -15885,7 +15866,6 @@
 	)
 	(label "QSPI_CS"
 		(at 132.08 219.71 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -15896,7 +15876,6 @@
 	)
 	(label "IMURX"
 		(at 204.47 205.74 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15907,7 +15886,6 @@
 	)
 	(label "D-"
 		(at 140.97 175.26 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -15918,7 +15896,6 @@
 	)
 	(label "QSPI_DATA[0]"
 		(at 36.83 128.27 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -15929,7 +15906,6 @@
 	)
 	(label "QSPI_DATA[2]"
 		(at 196.2692 82.5657 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -15940,7 +15916,6 @@
 	)
 	(label "QSPI_DATA[3]"
 		(at 36.83 135.89 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -15951,7 +15926,6 @@
 	)
 	(label "IMUTX"
 		(at 207.01 208.28 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15962,7 +15936,6 @@
 	)
 	(label "~{RESET}"
 		(at 39.37 62.23 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -23652,7 +23625,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 371.8052 25.4 0)
 			(effects
 				(font
@@ -23933,7 +23906,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PayloadBoard:Molex_Pico_CON_5040500891"
+		(property "Footprint" "PayloadBoard:Molex_Pico_CON_5040500691"
 			(at 25.4 176.53 0)
 			(effects
 				(font
